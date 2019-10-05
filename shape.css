@@ -1,0 +1,128 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.s{
+	background-color: skyblue;
+	height: 800px;
+	width:1500px;
+	position: absolute;
+	
+}
+.p{ 
+	background-color:#0033cc ;
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	position: relative;
+	top: 2px;
+	right:80px;
+		animation: bounce  4s infinite;
+}
+@keyframes bounce {
+	10%{
+		height: 50px;
+		width: 50px
+	}
+	
+	50%{
+	    height: 50px;
+		width: 50px;
+		transform: translateZ(10px);
+	}
+}			
+.a{ 
+	background-color:green ;
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	position: relative;
+	top: 75px;
+	left: 3px;
+		animation: bounce 4s infinite;
+}
+@keyframes bounce {
+	10%{
+		height: 50px;
+		width: 50px
+	}
+	
+	50%{
+	    height: 50px;
+		width: 50px;
+		transform: translateZ(10px);
+	}
+			
+	
+
+}
+.h{ 
+	background-color: yellow;
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	position: relative;
+	top: 1px;
+	left: 80px;
+		animation: bounce  4s infinite;
+}
+@keyframes bounce {
+	10%{
+		height: 50px;
+		width: 50px
+	}
+	
+	50%{
+	    height: 50px;
+		width: 50px;
+		transform: translateY(10px);
+	}
+}
+.shape{
+	background-color: red;
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	
+	position: relative;
+	top: 150px;
+	left: 400px;
+	animation: bounce 4s infinite;
+}
+@keyframes bounce  {
+	10%{
+		height: 50px;
+		width: 50px
+
+	}
+	
+	50%{
+	   
+		width: 50px;
+		transform: translateY(10px);
+	}
+}
+.y{
+	color: red;
+	position: relative;
+	padding-left: 100px;
+	font-size: 100px;
+	animation: move 5s infinite;
+}
+@keyframes move {
+	10%{
+	
+		width: 100px;
+		transform: translateX(50px);
+
+	}
+}
+
+
+.x{
+	color: red;
+	position: relative;
+	padding-left: 100px;
+	font-size: 50px;
+
+}
