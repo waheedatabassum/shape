@@ -26,9 +26,9 @@ body{
 	}
 	
 	50%{
-	    height: 50px;
+	    height: 30px;
 		width: 50px;
-		transform: translateZ(10px);
+		transform: translateX(10px);
 	}
 }			
 .a{ 
@@ -48,9 +48,9 @@ body{
 	}
 	
 	50%{
-	    height: 50px;
+	    height: 30px;
 		width: 50px;
-		transform: translateZ(10px);
+		transform: translateX(10px);
 	}
 			
 	
@@ -73,9 +73,9 @@ body{
 	}
 	
 	50%{
-	    height: 50px;
+	    height: 30px;
 		width: 50px;
-		transform: translateY(10px);
+		transform: translateX(10px);
 	}
 }
 .shape{
@@ -97,9 +97,9 @@ body{
 	}
 	
 	50%{
-	   
+	        height:30px;
 		width: 50px;
-		transform: translateY(10px);
+		transform: translateX(10px);
 	}
 }
 .y{
